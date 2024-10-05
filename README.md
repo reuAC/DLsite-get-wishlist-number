@@ -1,11 +1,11 @@
 # DLsite-get-wishlist-number
-Retrieving content ID numbers from the favorites page on DLsite.  
-[ English | [中文](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_CN.md) | [日本語](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_JP.md) ]
+从DLsite的收藏页面检索内容ID号码。
+[ [中文](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_CN.md) | [English](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_EN.md) | [日本語](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_JP.md) ]
 
-## Introduction
-You need to first navigate to the favorites page on DLsite, then open the browser's developer tools. In the console, copy and execute one of the code versions below. The content IDs of the favorites on the current page will then be printed.
+## 介绍
+你需要先打开DLsite的收藏页面，而后打开浏览器开发者工具，并在控制台复制并执行（回车即执行）下面其中一个版本的代码，随后页面内全部的收藏内容的编号会被打印出来
 
-## Uncompressed version
+## 无压缩版本
 ```javascript
 var main = "";
 document.querySelectorAll(".work_name > a").forEach((item)=>{
@@ -13,7 +13,7 @@ document.querySelectorAll(".work_name > a").forEach((item)=>{
 });
 ```
 
-## Compressed version
+## 压缩版本
 ```javascript
 var a="";document.querySelectorAll(".work_name > a").forEach(b=>{a+=","+b.href.match(/RJ\d+/)[0]});console.log(a)
 });
