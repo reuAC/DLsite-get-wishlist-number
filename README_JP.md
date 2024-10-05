@@ -1,5 +1,5 @@
 # DLsite-get-wishlist-number
-DLsiteのお気に入りページからコンテンツID番号を取得します。
+DLsiteのお気に入りページからコンテンツID番号を取得します。  
 [ [中文](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_CN.md) | [English](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_EN.md) | 日本語 ]
 
 ## はじめに
