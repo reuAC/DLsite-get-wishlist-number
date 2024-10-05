@@ -10,8 +10,10 @@ var main = "";
 document.querySelectorAll(".work_name > a").forEach((item)=>{
 	main += "," + item.href.match(/RJ\d+/)[0];
 });
+```
 
 ## Compressed version
 ```javascript
 var a="";document.querySelectorAll(".work_name > a").forEach(b=>{a+=","+b.href.match(/RJ\d+/)[0]});console.log(a)
 });
+```
