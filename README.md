@@ -1,5 +1,5 @@
 # DLsite-get-wishlist-number
-Retrieving content ID numbers from the favorites page on DLsite.
+Retrieving content ID numbers from the favorites page on DLsite.  
 [ English | [中文](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_CN.md) | [日本語](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_JP.md) ]
 
 ## Introduction
