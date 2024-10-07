@@ -1,6 +1,6 @@
 # DLsite-get-wishlist-number
 Retrieving content ID numbers from the favorites page on DLsite.  
-[ [中文](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_CN.md) | English | [日本語](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_JP.md) ]
+[ [中文](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README.md) | English | [日本語](https://github.com/reuAC/DLsite-get-wishlist-number/blob/re_uAC/README_JP.md) ]
 
 ## Introduction
 You need to first navigate to the favorites page on DLsite, then open the browser's developer tools. In the console, copy and execute one of the code versions below. The content IDs of the favorites on the current page will then be printed.
